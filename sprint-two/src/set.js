@@ -40,7 +40,7 @@ setPrototype.remove = function(item) {
 /*
  * Complexity: What is the time complexity of the above functions?
  */
-// [2, 9, "hello"];
-// return !!_.reduce(whatever, function(){
-//   return blahblah;
-// }, true);
+
+//Add === O(1);
+//Contains && Remove === O(1) or O(n)
+//if it has to iterate to find using the IF statement and delete.
