@@ -10,7 +10,7 @@ var Graph = function() {
 // Add a node to the graph, passing in the node's value.
 Graph.prototype.addNode = function(node) {
     this.graph[node] = [];
-    console.log(this.graph[node]);
+    // console.log(this.graph[node]);
 };
 
 // ------------------------
@@ -53,8 +53,8 @@ Graph.prototype.addEdge = function(fromNode, toNode) {
     // this.graph[toNode][fromNode] = true;
     // this.graph[fromNode][toNode] = true;
 
-    console.log(this.graph[toNode].push(fromNode));
-    console.log(this.graph[fromNode].push(toNode));
+     this.graph[toNode].push(fromNode);
+     this.graph[fromNode].push(toNode);
 };
 
 // ------------------------
@@ -67,14 +67,14 @@ Graph.prototype.removeEdge = function(fromNode, toNode) {
   // this.graph[toNode].pop(fromNode);
 
   for (var i = 0; i < this.graph[fromNode].length; i++) {
-    console.log(this.graph[fromNode][i]);
+    // console.log(this.graph[fromNode][i]);
     if (this.graph[fromNode][i] === toNode){
       this.graph[fromNode].splice(i, 1);
 
     }
   }
   for (var j = 0; j < this.graph[toNode].length; j++) {
-    console.log(this.graph[fromNode][j]);
+    // console.log(this.graph[fromNode][j]);
     if (this.graph[toNode][j] === fromNode){
       // this.graph[toNode].splice(j, 1);
       this.graph[toNode][j] = false;
