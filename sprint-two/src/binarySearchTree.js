@@ -66,4 +66,4 @@ BinarySearchTree.prototype.depthFirstLog = function(cb) {
 
 // Insert === O(n)
 // Contains === O(n)
-// depthFirstLog === O(n);?
+// depthFirstLog === O(n)
