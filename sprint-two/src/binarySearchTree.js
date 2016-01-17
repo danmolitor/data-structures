@@ -64,64 +64,6 @@ BinarySearchTree.prototype.depthFirstLog = function(cb) {
  * Complexity: What is the time complexity of the above functions?
  */
 
-
-
-
-
-// var newTree = BinarySearchTree(5);
-
-//newTree  {
-
-// binarySearchTree.value = 5;
-// binarySearchTree.left = null;
-// binarySearchTree.right = null;
-
-//}
-
-// BinarySearchTree.prototype.insert = function(passed){
-//   // check to see if passed value is greater than this.current
-//   //
-// };
-
-// BinarySearchTree.prototype.contains = function(){
-
-// };
-
-// BinarySearchTree.prototype.depthFirstLog = function(){
-
-// };
-
-//if this.left === null && node.value <
-//if node.value < this.value
-// this.left = node
-
-//var node2 =
-
-// binarySearchTree.value = 3;
-// binarySearchTree.left = null;
-// binarySearchTree.right = null;
-
-
-
-//}
-
-
-
-
-
-
-//var node = {
-
-// binarySearchTree.value = 2;
-// binarySearchTree.left = null;
-// binarySearchTree.right = null;
-
-
-
-//}
-
-// check to see if value > this.value
-// nested if-if it is check to see if this.right === null
-//nested if-if does this.right.insert(value);
-//this.right = BinarySearchTree(value)
-//else
+// Insert === O(n)
+// Contains === O(n)
+// depthFirstLog === O(n);?
